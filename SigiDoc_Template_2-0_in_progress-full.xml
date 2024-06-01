@@ -10,7 +10,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-<!--                <title xml:lang="fr">Sceau de Xénè, moniale et <hi rend="italic">zôstè</hi></title> -->
+                <title xml:lang="fr">Sceau de Xénè, moniale et <hi rend="italic">zôstè</hi></title> 
                 <title xml:lang="en">Seal of Xene, nun and zoste</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <!-- without <persName/>; @role added to the schema with suggested values -->
