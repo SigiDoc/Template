@@ -4,16 +4,13 @@
 <!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
 <!-- ongoing changes to 2.0: march 2024 -->
 
-
-
-
 <?xml-model href="../ODD/out/sigidoc-chained.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../ODD/out/sigidoc-chained.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Xénè, moniale et <hi rend="italic">zôstè</hi></title>
+<!--                <title xml:lang="fr">Sceau de Xénè, moniale et <hi rend="italic">zôstè</hi></title> -->
                 <title xml:lang="en">Seal of Xene, nun and zoste</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <!-- without <persName/>; @role added to the schema with suggested values -->
