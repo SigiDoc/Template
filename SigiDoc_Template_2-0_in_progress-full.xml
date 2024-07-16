@@ -4,13 +4,13 @@
 <!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
 <!-- ongoing changes to 2.0: march 2024 -->
 
-<?xml-model href="../ODD/out/sigidoc-chained.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../ODD/out/sigidoc-chained.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Xénè, moniale et <hi rend="italic">zôstè</hi></title> 
+                <title xml:lang="fr">Sceau de Xénè, moniale et <hi rend="italic">zôstè</hi></title>
                 <title xml:lang="en">Seal of Xene, nun and zoste</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <!-- without <persName/>; @role added to the schema with suggested values -->
@@ -58,7 +58,7 @@
                 <listPerson type="issuer">
                     <person gender="F" role="monastic civil">
                         <persName xml:lang="grc">
-                            <forename>Ξενη</forename>
+                            <forename>Ξένη</forename>
                         </persName>
                         <persName xml:lang="fr">
                             <forename>Xénè</forename>
@@ -82,23 +82,27 @@
                         <!-- names as they are, not translated, hence, @xml:lang should not be written -->
                         <repository>Archives</repository>
                         <!-- names as they are, not translated, hence, @xml:lang should not be written -->
-                        <collection type="private" xml:lang="en" ref="URI"><!-- @type added; required, but value only suggested -->
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <!-- @type added; required, but value only suggested -->
                             <rs type="collection-name" xml:lang="en"><!-- one rs per language; collection should not be multiplied if the collection is the same -->
-                                <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection.
-                            </rs>
-                            <rs type="collection-name" xml:lang="fr">
-                                Collection <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>.
-                            </rs>
+                                <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    Tatış</persName> collection. </rs>
+                            <rs type="collection-name" xml:lang="fr"> Collection <persName
+                                    role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    Tatış</persName>. </rs>
                         </collection>
                         <!-- persName/@role=owner, @ref: not in the schema -->
                         <idno type="inv-nr-current">2950</idno>
                         <!-- altIdentifier optional -->
-                        <altIdentifier><!-- several altIdentifier allowed for different former locations -->
-                            <repository/><!-- names as they are, not translated, hence, @xml:lang should not be written -->
+                        <altIdentifier>
+                            <!-- several altIdentifier allowed for different former locations -->
+                            <repository/>
+                            <!-- names as they are, not translated, hence, @xml:lang should not be written -->
                             <collection type="private">
-                                <rs type="collection-name" xml:lang="en"></rs><!-- one rs per language; collection should not be multiplied if the collection is the same -->
-                                <rs type="collection-name" xml:lang="fr"></rs>
-                                <rs type="collection-name" xml:lang="de"></rs>
+                                <rs type="collection-name" xml:lang="en"/>
+                                <!-- one rs per language; collection should not be multiplied if the collection is the same -->
+                                <rs type="collection-name" xml:lang="fr"/>
+                                <rs type="collection-name" xml:lang="de"/>
                             </collection>
                             <idno type="inv-nr-former"/>
                         </altIdentifier>
@@ -259,7 +263,7 @@
                     </history>
                     <msPart n="r">
                         <msIdentifier/>
-                        <!-- required by EpiDoc: is there q way to delete it without losing the ED validation? -->
+                        <!-- required by EpiDoc: is there a way to delete it without losing the ED validation? -->
                         <msContents>
                             <summary n="r">
                                 <seg xml:lang="en">Obverse</seg>
@@ -297,12 +301,13 @@
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
-                                    <figure><!-- @ana to encode the iconographic bubbles -->
-                                        <figDesc n="r" xml:lang="en" ana="female virgin bust child">The Virgin is half-body, facing
-                                            the Child whom she is holding on her left arm, head
-                                            bowed, her cheek almost touching the cruciferous nimbus.
-                                            The Christ, half-body, of fine stature, blesses and
-                                            holds the Book.</figDesc>
+                                    <figure>
+                                        <!-- @ana to encode the iconographic bubbles -->
+                                        <figDesc n="r" xml:lang="en" ana="female virgin bust child"
+                                            >The Virgin is half-body, facing the Child whom she is
+                                            holding on her left arm, head bowed, her cheek almost
+                                            touching the cruciferous nimbus. The Christ, half-body,
+                                            of fine stature, blesses and holds the Book.</figDesc>
                                         <figDesc n="decoR" xml:lang=""/>
                                     </figure>
                                 </decoNote>
@@ -322,7 +327,7 @@
                     </msPart>
                     <msPart n="v">
                         <msIdentifier/>
-                        <!-- required by EpiDoc: is there q way to delete it without losing the ED validation? -->
+                        <!-- required by EpiDoc: is there a way to delete it without losing the ED validation? -->
                         <msContents>
                             <summary n="v">
                                 <seg xml:lang="en">Reverse</seg>
@@ -448,7 +453,7 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                  <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="">
+                  <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc">
                       <ab>[text here]</ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="monogram-cross" xml:lang=""><!-- value 'monogram' changed -->
