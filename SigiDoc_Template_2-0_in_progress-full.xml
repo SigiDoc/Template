@@ -17,9 +17,9 @@
                 <funder>
                     <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
                         (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
-                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland.
+                </funder>
                 <principal>Alessio Sopracasa</principal>
-                <!-- principal investigator or project coordinator -->
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -31,12 +31,11 @@
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
-                    Methodologies for Historical Research in Byzantine Studies</authority>
+                    Methodologies for Historical Research in Byzantine Studies
+                </authority>
                 <idno type="filename">Tatış_5-123</idno>
                 <idno type="SigiDocID">dvr345</idno>
-                <!-- to be compiled automatically with random IDs -->
                 <idno type="sequence"/>
-                <!-- to be compiled automatically -->
                 <date when="2024-03-03"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
