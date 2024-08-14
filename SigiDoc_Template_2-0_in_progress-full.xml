@@ -197,7 +197,7 @@
                         <origin>
                             <origPlace>
                                 <seg xml:lang="fr">
-                                    <placeName>Constantinople</placeName>
+                                    <placeName ref="URI">Constantinople</placeName>
                                 </seg>
                             </origPlace>
                             <!-- possible alternatives for dates:
@@ -219,13 +219,9 @@
                                 when-custom="0006"
                                 datingMethod="https://www.wikidata.org/wiki/Q1339127"
                                 evidence="internal-date">
-                                <!-- alternative: @when for a precise year
-                                it is also possible to use @notBefore-custom and notAfter-custom -->
                                 <seg xml:lang="en">Indiction 6, corresponding to the year 692-693
                                     CE</seg>
-                                <!--<interp type="datingCriteria" xml:lang=""/>--><!-- now deprecated -->
                             </origDate>
-                            <!-- for erroneous dating and corrections: -->
                             <date>
                                 <choice>
                                     <sic resp="#AS"/>
