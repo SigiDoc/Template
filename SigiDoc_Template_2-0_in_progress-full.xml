@@ -50,8 +50,7 @@
                     <org role="corporate" type="monastic">
                         <orgName xml:lang="grc">Μονῆς τοῦ Στύλου</orgName>
                         <orgName xml:lang="fr">Monastère de Stylos</orgName>
-                        <idno type="URI"></idno><!-\- this should be considered as an equivalent to idno in person;
-                            but for @type here there is not predefined value in the schema, but @tyoe is still required -\->
+                        <idno type="URI"></idno>
                     </org>
                 </listOrg>-->
                 <listPerson type="issuer">
@@ -78,12 +77,9 @@
                             <seg xml:lang="fr">Izmir</seg>
                         </settlement>
                         <institution>British Library</institution>
-                        <!-- names as they are, not translated, hence, @xml:lang should not be written -->
                         <repository>Archives</repository>
-                        <!-- names as they are, not translated, hence, @xml:lang should not be written -->
-                        <collection type="private" xml:lang="en" ref="URI">
-                            <!-- @type added; required, but value only suggested -->
-                            <rs type="collection-name" xml:lang="en"><!-- one rs per language; collection should not be multiplied if the collection is the same -->
+                        <collection type="private" ref="URI">
+                            <rs type="collection-name" xml:lang="en">
                                 <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName> collection. </rs>
                             <rs type="collection-name" xml:lang="fr"> Collection <persName
@@ -92,14 +88,10 @@
                         </collection>
                         <!-- persName/@role=owner, @ref: not in the schema -->
                         <idno type="inv-nr-current">2950</idno>
-                        <!-- altIdentifier optional -->
                         <altIdentifier>
-                            <!-- several altIdentifier allowed for different former locations -->
                             <repository/>
-                            <!-- names as they are, not translated, hence, @xml:lang should not be written -->
                             <collection type="private">
                                 <rs type="collection-name" xml:lang="en"/>
-                                <!-- one rs per language; collection should not be multiplied if the collection is the same -->
                                 <rs type="collection-name" xml:lang="fr"/>
                                 <rs type="collection-name" xml:lang="de"/>
                             </collection>
