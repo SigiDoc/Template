@@ -100,9 +100,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary n="whole">
-                            <seg xml:lang="en">Provincial administration</seg>
-                            <seg xml:lang="fr">Ecclésiastique,
-                            Dignitaires</seg><!-- 2 or more categories allowed, it is an editor decision, but all in one seg -->
+                            <seg xml:lang="en"></seg>
+                            <seg xml:lang="fr"></seg>
                         </summary>
                         <!-- the following is not necessary anymore -->
                         <!--<msItem>
@@ -241,11 +240,11 @@
                         <provenance type="not-observed" subtype="lost">
                             <p xml:lang=""/>
                         </provenance>
-                        <provenance type="transferred" subtype="moved">
+                        <provenance type="transferred" subtype="donated">
                             <p xml:lang=""/>
                         </provenance>
                         <acquisition>
-                            <p xml:lang=""/>
+                            <p xml:lang="en"/>
                         </acquisition>
                     </history>
                     <msPart n="r">
