@@ -103,27 +103,6 @@
                             <seg xml:lang="en"></seg>
                             <seg xml:lang="fr"></seg>
                         </summary>
-                        <!-- the following is not necessary anymore -->
-                        <!--<msItem>
-                            <p/>
-                            <!-\- author now deprecated -\->
-                            <!-\-<author>
-                                <roleName role="issuer" type="">
-                                    <seg xml:lang=""/>
-                                    <interp type="milieu" xml:lang=""/>
-                                </roleName>
-                            </author>-\->
-                            <!-\-<author>
-                                <roleName role="issuer" type="civil"/>
-                                <persName xml:lang="grc">
-                                    <persName><forename>Georgios</forename><surname>Komnenos</surname></persName>
-                                </persName>
-                                <persName xml:lang="en">
-                                    <forename>George</forename><surname>Comnenus</surname>
-                                </persName>
-                                <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Asotas/20101/">Georgios Komnenos 12345</idno>
-                            </author>-\->
-                        </msItem>-->
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -144,7 +123,6 @@
                                         <seg xml:lang="en">Lead</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <!-- now several dimensions allowed for different measuring systems -->
                                         <dim type="diameter">30</dim>
                                     </dimensions>
                                     <measure type="weight" unit="g">21,29</measure>
@@ -161,11 +139,6 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout n="whole">
-                                    <!-- rs type="layout" deprecated -->
-                                    <!-- the field "General layout" on the webpage should be deleted -->
-                                    <!--<rs type="layout">
-                                        <seg xml:lang=""/>
-                                    </rs>-->
                                     <rs type="execution">
                                         <seg xml:lang="fr">Frappé</seg>
                                     </rs>
@@ -263,7 +236,6 @@
                                 <layoutDesc>
                                     <layout n="r">
                                         <dimensions type="written" unit="mm">
-                                            <!-- now several dimensions allowed for different measuring systems -->
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="matrix" subtype="not-surviving"><!-- if this information is not applicable, it is possible to simply delete or comment out this element -->
@@ -327,7 +299,6 @@
                                 <layoutDesc>
                                     <layout n="v">
                                         <dimensions type="written" unit="mm">
-                                            <!-- now several dimensions allowed for different measuring systems -->
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="matrix" subtype="not-surviving"><!-- if this information is not applicable, it is possible to simply delete or comment out this element -->
