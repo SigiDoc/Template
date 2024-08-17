@@ -238,17 +238,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <rs type="matrix" subtype="not-surviving"><!-- if this information is not applicable, it is possible to simply delete or comment out this element -->
+                                        <rs type="matrix" subtype="not-surviving">
                                             <idno type="SigiDoc"/>
                                         </rs>
-                                        <!--<rs type="layout">
-                                            <seg xml:lang=""/>
-                                        </rs>-->
-                                        <!-- now deprecated -->
                                         <p xml:lang=""/>
-                                        <!-- visualised in the "Layout of field" field; free text only;
-                                        http://sigidoc.huma-num.fr/Guidelines_XML/xml-html/SigiDoc_controlled-vocabularies_elements.html#a13
-                                        now deprecated, but those infos will be searchable and taken from the div/@type='edition'-->
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -272,14 +265,11 @@
                             </decoDesc>
                         </physDesc>
                         <history>
-                            <!-- if this information is not applicable, it is possible to simply delete it -->
                             <origin>
                                 <origDate type="analysis" evidence="coinage">
-                                    <seg xml:lang="en"
-                                        ><!-- for nested elements, see previous <origDate/> --></seg>
-                                    <!--<interp type="datingCriteria"/>--><!-- deprecated -->
+                                    <seg xml:lang="en"></seg>
                                 </origDate>
-                                <date><!-- for nested elements, see previous <date/> --></date>
+                                <date></date>
                             </origin>
                         </history>
                     </msPart>
@@ -304,14 +294,7 @@
                                         <rs type="matrix" subtype="not-surviving"><!-- if this information is not applicable, it is possible to simply delete or comment out this element -->
                                             <idno type="SigiDoc"/>
                                         </rs>
-                                        <!--<rs type="layout">
-                                            <seg xml:lang=""/>
-                                        </rs>-->
-                                        <!-- deprecated -->
                                         <p xml:lang=""/>
-                                        <!-- visualised in the "Layout of field" field; free text only;
-                                        http://sigidoc.huma-num.fr/Guidelines_XML/xml-html/SigiDoc_controlled-vocabularies_elements.html#a13
-                                        now deprecated, but those infos will be searchable and taken from the div/@type='edition'-->
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -330,14 +313,11 @@
                             </decoDesc>
                         </physDesc>
                         <history>
-                            <!-- if this information is not applicable, it is possible to simply delete it -->
                             <origin>
                                 <origDate type="analysis" evidence="decoration">
-                                    <seg xml:lang="fr"
-                                        ><!-- for nested elements, see previous <origDate/> --></seg>
-                                    <!--<interp type="datingCriteria"/>--><!-- deprecated -->
+                                    <seg xml:lang="fr"></seg>
                                 </origDate>
-                                <date><!-- for nested elements, see previous <date/> --></date>
+                                <date></date>
                             </origin>
                         </history>
                     </msPart>
