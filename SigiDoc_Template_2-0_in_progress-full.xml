@@ -83,7 +83,7 @@
                                 <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName> collection. </rs>
                             <rs type="collection-name" xml:lang="fr"> Collection <persName
-                                    role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName>. </rs>
                         </collection>
                         <!-- persName/@role=owner, @ref: not in the schema -->
