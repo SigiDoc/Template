@@ -13,7 +13,6 @@
                 <title xml:lang="fr">Sceau de Xénè, moniale et <hi rend="italic">zôstè</hi></title>
                 <title xml:lang="en">Seal of Xene, nun and zoste</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
-                <!-- without <persName/>; @role added to the schema with suggested values -->
                 <funder>
                     <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
                         (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
@@ -27,7 +26,6 @@
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
                 <editor role="digital-editor" xml:id="AS" when="2024">Alessio Sopracasa</editor>
-                <!-- without <persName/>; @role added to the schema with suggested values -->
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
@@ -86,7 +84,6 @@
                                     role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName>. </rs>
                         </collection>
-                        <!-- persName/@role=owner, @ref: not in the schema -->
                         <idno type="inv-nr-current">2950</idno>
                         <altIdentifier>
                             <repository/>
@@ -154,16 +151,6 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!-- decoDesc now optional, as per ED 9.5: not written here anymore, to be deleted;
-                        it is now used only for obv and rev, but still optional, because we could have seals
-                        with bilateral legends-->
-                        <!--<decoDesc>
-                            <decoNote>
-                                <figure>
-                                    <figDesc n="whole" xml:lang=""/>
-                                </figure>
-                            </decoNote>
-                        </decoDesc>-->
                     </physDesc>
                     <history>
                         <origin>
@@ -178,13 +165,11 @@
                             <origDate type="analysis" when="1192" evidence="attached-document"
                                 cert="high" resp="#MF">
                                 <seg xml:lang="en">1192 CE</seg>
-                                <!--<interp type=""></interp>--><!-- now deprecated -->
                             </origDate>
                             <!-- for a date range or centuries-->
                             <origDate type="analysis" notBefore="1041" notAfter="1060"
                                 evidence="epigraphy titulature" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">XIe siècle (milieu)</seg>
-                                <!--<interp type="datingCriteria" xml:lang=""/>--><!-- now deprecated -->
                             </origDate>
                             <!-- for an internal date -->
                             <origDate type="internal" notBefore="0692" notAfter="0693"
@@ -253,7 +238,6 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <!-- @ana to encode the iconographic bubbles -->
                                         <figDesc n="r" xml:lang="en" ana="female virgin bust child"
                                             >The Virgin is half-body, facing the Child whom she is
                                             holding on her left arm, head bowed, her cheek almost
@@ -291,7 +275,7 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <rs type="matrix" subtype="not-surviving"><!-- if this information is not applicable, it is possible to simply delete or comment out this element -->
+                                        <rs type="matrix" subtype="not-surviving">
                                             <idno type="SigiDoc"/>
                                         </rs>
                                         <p xml:lang=""/>
@@ -328,7 +312,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <!-- listPrefixDef deleted -->
             <charDecl>
                 <!-- organisation changed, according to https://epidoc.stoa.org/gl/latest/trans-symbol.html -->
                 <!-- a very short list of glyphs should be prepared:
@@ -338,7 +321,6 @@
                 gamma for tri
                 S for kai
                 O for ho hagios
-                ...AN EMAIL SHOULD BE SENT TO ENCODERS FOR ADDITIONS
                 -->
                 <glyph xml:id="cross">
                     <mapping type="standard">+</mapping>
@@ -347,7 +329,6 @@
             </charDecl>
         </encodingDesc>
         <profileDesc>
-            <!-- explicitly added -->
             <langUsage>
                 <language ident="Grek">Greek script</language>
                 <language ident="Latn">Latin script</language>
@@ -365,11 +346,10 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <!-- attributes and attributes' values not currently included in the schema -->
         <surfaceGrp>
             <surface n="r">
                 <desc>Obverse</desc>
-                <graphic url="https://www.abcde.com" type="digital">
+                <graphic url="https://www.abcde.com" type="photo">
                     <desc>Digital image of the obverse (2024).</desc>
                 </graphic>
                 <graphic url="https://www.abcde.com" type="RTI">
@@ -378,7 +358,7 @@
             </surface>
             <surface n="v">
                 <desc>Reverse</desc>
-                <graphic url="https://www.abcde.com" type="digital">
+                <graphic url="https://www.abcde.com" type="photo">
                     <desc>Digital image of the reverse (2024).</desc>
                 </graphic>
                 <graphic url="https://www.abcde.com" type="RTI">
@@ -393,7 +373,7 @@
                   <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc">
                       <ab>[text here]</ab>
                   </div>
-                  <div type="textpart" n="rev" subtype="face" rend="monogram-cross" xml:lang=""><!-- value 'monogram' changed -->
+                  <div type="textpart" n="rev" subtype="face" rend="monogram-cross" xml:lang="">
                       <ab>[text here]</ab>
                   </div>
               </div>
