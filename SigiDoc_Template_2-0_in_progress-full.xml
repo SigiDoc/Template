@@ -313,15 +313,6 @@
                 <p/>
             </editorialDecl>
             <charDecl>
-                <!-- organisation changed, according to https://epidoc.stoa.org/gl/latest/trans-symbol.html -->
-                <!-- a very short list of glyphs should be prepared:
-                cross
-                alpha for protos or monachos, for ex.
-                chi-rho
-                gamma for tri
-                S for kai
-                O for ho hagios
-                -->
                 <glyph xml:id="cross">
                     <mapping type="standard">+</mapping>
                     <mapping type="simplified">(cross)</mapping>
