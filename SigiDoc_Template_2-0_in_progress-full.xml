@@ -4,8 +4,8 @@
 <!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
 <!-- ongoing changes to 2.0: march 2024 -->
 
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/dev/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/dev/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -78,10 +78,10 @@
                         <repository>Archives</repository>
                         <collection type="private" ref="URI">
                             <rs type="collection-name" xml:lang="en">
-                                <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName> collection. </rs>
                             <rs type="collection-name" xml:lang="fr"> Collection <persName
-                                    role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName>. </rs>
                         </collection>
                         <idno type="inv-nr-current">2950</idno>
@@ -238,7 +238,7 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="en" ana="female virgin bust child"
+                                        <figDesc n="r" xml:lang="en" ana="female Virgin bust child"
                                             >The Virgin is half-body, facing the Child whom she is
                                             holding on her left arm, head bowed, her cheek almost
                                             touching the cruciferous nimbus. The Christ, half-body,
@@ -290,7 +290,7 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="v" xml:lang="" ana="Theodore standing"/>
+                                        <figDesc n="v" xml:lang="" ana="St-Theodore standing"/>
                                         <figDesc n="decoV" xml:lang=""/>
                                     </figure>
                                 </decoNote>
@@ -308,17 +308,6 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p/>
-            </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
-        </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="Grek">Greek script</language>
@@ -362,18 +351,18 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc">
-                      <ab>[text here]</ab>
+                      <ab ana="dat">[text here]</ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="monogram-cross" xml:lang="">
-                      <ab>[text here]</ab>
+                      <ab ana="gen">[text here]</ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="">
-                      <ab>[text here in Athena Ruby]</ab>
+                      <ab ana="dat">[text here in Athena Ruby]</ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="">
-                      <ab>[text here in Athena Ruby]</ab>
+                      <ab ana="gen">[text here in Athena Ruby]</ab>
                   </div>
               </div>
             <div type="apparatus">
